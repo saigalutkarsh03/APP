@@ -35,23 +35,25 @@ import detailsScreen from './components/detailsScreen';
 import aboutUs from "./components/aboutUs";
 import details from "./components/details";
 import event from './components/event';
+import test from './components/test';
 
 export const RootStack = createDrawerNavigator(
   {
-      homeScreen:homeScreen,
+      HomeScreen:homeScreen,
       Event:event,
-      detailsScreen:detailsScreen,
+      DetailsScreen:detailsScreen,
       AboutUs:aboutUs,
       DetailsCompany:details,
+      Test:test
   },
   {
-      initialRouteName: "homeScreen",
-      activeTintColor: "#fff",
-      drawerBackgroundColor: "red",
+      initialRouteName: "HomeScreen",
+      activeTintColor: "grey",
+      drawerBackgroundColor: "#fff",
       flex: 1,
       contentOptions: {
-          activeTintColor: "white",
-          inactiveTintColor: "green",         
+          activeTintColor: "grey",
+          inactiveTintColor: "black",         
       }
   }
 )
@@ -59,7 +61,7 @@ const AppContainer = createAppContainer(RootStack);
 export default class App extends Component {
   render(){
     return (
-      <View style={{backgroundColor:'blue',height:'100%',width:'100%'}}>
+      <View style={{backgroundColor:'White',height:'100%',width:'100%', color:"#000"}}>
         <AppContainer/>
       </View>
       

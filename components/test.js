@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Button, Image } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity, Button, Image,ScrollView } from 'react-native'
 
-class homeScreen extends Component {
+class test extends Component {
     constructor(props) {
         super(props);
         // this.goto = this.goto.bind(this)
@@ -29,12 +29,12 @@ class homeScreen extends Component {
                         <Image style={styles.logo} source={require('../assets/d.jpg')} />
                     </View>
                 </View>
-                <View>
+                <ScrollView>
                     <View>
                     <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hi There !!!</Text>
                     <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hope You Enjoy This App</Text>
                     </View>
-                    <View>
+                    {/* <ScrollView> */}
                         <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/images.png')} />
                         <Button style={styles.btnTest} title="Go to about" onPress={() => this.goto()} />
                         <TouchableOpacity style={styles.btnTest} onPress={() => this.goto()}>
@@ -42,9 +42,20 @@ class homeScreen extends Component {
                                 Go to About Us
                             </Text>
                         </TouchableOpacity>
-                    </View>
+                        {/* <RaisedButton></RaisedButton> */}
+                        {/* <ScrollView> */}
+                        <Image  source={require('../assets/d.jpg')} />
+                        <Image  source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        
+                        {/* </ScrollView> */}
+                        
+                    {/* </ScrollView> */}
 
-                </View>
+                </ScrollView>
 
             </View>
 
@@ -121,4 +132,4 @@ const styles = StyleSheet.create({
         backgroundColor: '#FFF'
     },
 })
-export default homeScreen
+export default test

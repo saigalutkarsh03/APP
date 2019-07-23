@@ -20,7 +20,7 @@ export class detailsScreen extends Component {
                         </Text>
                     </View>
                 </View>
-                <Text style={{color:'#fff'}}>This is detailsScreen</Text>
+                <Text style={{color:'#000'}}>This is detailsScreen</Text>
             </View>
         )
     }
@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         height: 40,
         marginBottom: 5,
         marginTop: 10,
-        // backgroundColor:"#FFF",
+        backgroundColor:"lightgrey",
         flexDirection: 'row',
         alignItems: 'center',
     },

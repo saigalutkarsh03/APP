@@ -32,14 +32,18 @@ export class aboutUs extends Component {
             </View>
             
 
-            
+
             </View>
         )
     }
 }
 
 const styles = StyleSheet.create({
-    
+logo: {
+        height: 40,
+        width: 60,
+        marginRight:-15,
+    },    
 Tile: {
     height:400,
     width:'90%',
@@ -97,7 +101,7 @@ Tile: {
         height: 40,
         marginBottom: 5,
         marginTop: 10,
-        // backgroundColor:"#FFF",
+        backgroundColor:"lightgrey",
         flexDirection: 'row',
         alignItems: 'center',
     },

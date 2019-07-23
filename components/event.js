@@ -29,6 +29,11 @@ export class event extends Component {
 }
 
 const styles = StyleSheet.create({
+    logo: {
+        height: 40,
+        width: 60,
+        marginRight:-15,
+    },
     logoText: {
         marginRight: 10,
         //   width:"75%",
@@ -42,7 +47,7 @@ const styles = StyleSheet.create({
         height: 40,
         marginBottom: 5,
         marginTop: 10,
-        // backgroundColor:"#FFF",
+        backgroundColor:"lightgrey",
         flexDirection: 'row',
         alignItems: 'center',
     },
