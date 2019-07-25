@@ -17,7 +17,7 @@ export class aboutUs extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                            UV vote
                         </Text>
                     </View>
                 </View>
@@ -26,9 +26,9 @@ export class aboutUs extends Component {
              
              
               <View>
-            <Image source={require('../assets/d.jpg')} style={styles.TileImg}/>
+            <Image source={require('../assets/large.png')} style={styles.TileImg}/>
             </View>
-            <Text style={styles.TileHead}>Hello There Im The Google Earth</Text>
+            <Text style={styles.TileHead}> oline voting/Text>
             </View>
             
 

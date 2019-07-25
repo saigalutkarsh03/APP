@@ -24,18 +24,18 @@ class homeScreen extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                            UV vote
                         </Text>
-                        <Image style={styles.logo} source={require('../assets/d.jpg')} />
+                        <Image style={styles.logo} source={require('../assets/large.png')} />
                     </View>
                 </View>
                 <View>
                     <View>
                     <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hi There !!!</Text>
-                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Hope You Enjoy This App</Text>
+                    <Text style={{ color: '#000' , fontSize:25, alignSelf:"center", marginTop:20}}>Welcome to the online voting app</Text>
                     </View>
                     <View>
-                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/images.png')} />
+                        <Image style={[styles.img, {height:250, borderRadius:20, marginBottom:10, }]} source={require('../assets/image_405.png')} />
                         <Button style={styles.btnTest} title="Go to about" onPress={() => this.goto()} />
                         <TouchableOpacity style={styles.btnTest} onPress={() => this.goto()}>
                             <Text style={{alignSelf:"center"}}>

@@ -24,7 +24,7 @@ class test extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                            UV VOTE
                         </Text>
                         <Image style={styles.logo} source={require('../assets/d.jpg')} />
                     </View>

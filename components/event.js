@@ -17,7 +17,7 @@ export class event extends Component {
                     </TouchableOpacity >
                     <View style={styles.logoMain}>
                         <Text style={styles.logoText}>
-                            TestAPP
+                            UV Vote
                         </Text>
                     </View>
                 </View>
